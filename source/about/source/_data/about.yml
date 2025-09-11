@@ -35,7 +35,7 @@
           2023 守望先锋社区晚会 后期;  EDU BNBU 动画与交互媒体
         color: "#357ef5"
       - desc: 
-          2025 守望先锋社区晚会 场景导演;  派对游戏BubbleBreak 策划 美术 程序
+          2025 守望先锋社区晚会 场景导演;  派对游戏BubbleBreak 策划 美术 UX 程序
         color: "#357ef5"
     img: https://bu.dusays.com/2023/04/21/644287166329b.png
   statistic:
@@ -54,32 +54,38 @@
     selfInfoContent2: 动画与交互媒体
     selfInfoTips3: 现在职业
     selfInfoContent3: 大三学生👨‍🎓
-  personalities: 
+  personalities: # 近况部分 位置：D:\MyBlog\MyBlogs\seagulloo.github.io\themes\anzhiyu\layout\includes\page\about.pug
     author_name: 12
     personality_type: 12
     photo_url: https://i.mji.rip/2025/09/11/6ebd05c5865ce93f25eb762960d77c5a.jpeg #oocat图
-    personality_img: 12
+    personality_img: 
     name_url: #https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: Blabla
     maxim_top: 我草
     maxim_bottom: 怎么又过去一月
   buff:
-    buff_tips: 
-    buff_top: 
-    buff_bottom: 
+    buff_tips: 特长
+    buff_top: 学习能力+奇怪创意
+    buff_bottom: 然后学习实现创意
   game:
     game_tips: 
     game_title: 
     game_uid: 
     game_bg: 
-  comic:
-    comic_tips: 
-    comic_title: 
+  comic: #成果展示
+    comic_tips: 做过什么
+    comic_title: 看一看
     comic_list:
-      # - name: 约定的梦幻岛
-      #   href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-      #   cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
+      - name: 2023守望先锋社区晚会
+        href: https://www.bilibili.com/video/BV1us4y1b7t2/?spm_id_from=333.337.search-card.all.click&vd_source=0f56c0181cd0ee5752defe9024083747
+        cover: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/2023ow.jpg
+      - name: 2025守望先锋社区晚会
+        href: https://www.bilibili.com/video/BV1a8FNeZERE/?spm_id_from=333.337.search-card.all.click&vd_source=0f56c0181cd0ee5752defe9024083747
+        cover: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/2025ow.jpg
+      - name: Bubble Break
+        href: https://www.bilibili.com/video/BV1DyYNzYEW8/?spm_id_from=333.1387.homepage.video_card.click&vd_source=0f56c0181cd0ee5752defe9024083747
+        cover: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/BubbleBreakCover.png
   like:
     like_tips: 
     like_title: 
@@ -91,6 +97,6 @@
     music_bg: 
     music_link: /music
   reward_list:
-    - name: 亮亮
+    - name: OO
       amount: 9527
       datatime: 2023-10-28
