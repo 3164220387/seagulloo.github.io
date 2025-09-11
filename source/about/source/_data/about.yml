@@ -1,0 +1,96 @@
+- class_name: 关于页
+  subtitle: 做些什么东西
+  avatarImg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 智能家居小能手
+      - 🔨 设计开发一条龙
+    right:
+      - 主修交互与设计 🤝
+      - 脚踏实地行动派 🏃
+      - 团队小组发动机 🧱
+      - 壮汉人狠话不多 💢
+  name: 王OO
+  description: 是一名 游戏开发者、视频制作者、学生
+  aboutsiteTips:
+    tips: 追求
+    title1: 创作
+    title2: 做好玩的东西
+    word:
+      - 学习
+      - 生活
+      - 游戏
+      - 旅行
+  helloAbout: 你好，我好
+  skillsTips:
+    tips: 技能
+    title: 创造力
+  careers:
+    tips: 生涯
+    title: 走一步是一步
+    list:
+      - desc: 
+          2023 守望先锋社区晚会 后期, EDU BNBU 动画与交互媒体
+        color: "#357ef5"
+      - desc: 
+          2025 守望先锋社区晚会 场景导演, BubbleBreak游戏 策划 美术 程序
+        color: "#357ef5"
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，福建省福州市
+    background: https://i.mji.rip/2025/09/11/d6673786e801fe7c4d74d6fcd05fd2a7.jpeg
+    backgroundDark: https://i.mji.rip/2025/09/11/d6673786e801fe7c4d74d6fcd05fd2a7.jpeg
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2005
+    selfInfoTips2: 北师香港浸会大学
+    selfInfoContent2: 动画与交互媒体
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 大三学生👨‍🎓
+  personalities: 
+    author_name: 12
+    personality_type: 12
+    photo_url: 12
+    personality_img: 12
+    name_url: #https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: Blabla
+    maxim_top: 我草
+    maxim_bottom: 怎么又过去一月
+  buff:
+    buff_tips: 
+    buff_top: 
+    buff_bottom: 
+  game:
+    game_tips: 
+    game_title: 
+    game_uid: 
+    game_bg: 
+  comic:
+    comic_tips: 
+    comic_title: 
+    comic_list:
+      # - name: 约定的梦幻岛
+      #   href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+      #   cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
+  like:
+    like_tips: 
+    like_title: 
+    like_bg: 
+    like_bottom: 
+  music:
+    music_tips: 
+    music_title: 
+    music_bg: 
+    music_link: /music
+  reward_list:
+    - name: 亮亮
+      amount: 9527
+      datatime: 2023-10-28
