@@ -5,14 +5,14 @@ menu:
     标签: /tags/ || anzhiyu-icon-tags
 
   留言:
-    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
     B站主页: /bangumis/ || anzhiyu-icon-bilibili
-    相册集: /album/ || anzhiyu-icon-images
-    小空调: /air-conditioner/ || anzhiyu-icon-fan
+    # 相册集: /album/ || anzhiyu-icon-images
+    # 小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
@@ -70,7 +70,7 @@ social:
 
 # 作者卡片 状态
 author_status:
-  enable: false
+  enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
@@ -108,7 +108,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: true
   CDN:
 
@@ -139,7 +139,7 @@ favicon: /favicon.ico
 # Avatar (头像)
 avatar:
   img: https://i.mji.rip/2025/09/11/3212fe12823ccc4e488bd8cb18dca17c.jpeg
-  effect: true
+  effect: false
 
 # Disable all banner image
 disable_top_img: false
@@ -244,10 +244,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://i.mji.rip/2025/09/11/13e355b27a7d5acec2ccf46b41c8afb2.jpeg
+    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
       link:
       text: 微信
-    - img: https://i.mji.rip/2025/09/11/01a057176f405f99e34699a9f3d81794.jpeg
+    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
       link:
       text: 支付宝
 
@@ -558,7 +558,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -850,15 +850,15 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 10/9/2025 21:00:00
+  publish_date: 9/10/2025 21:00:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1088,7 +1088,7 @@ friends_vue:
 
 # 深色模式粒子效果canvas
 universe:
-  enable: false
+  enable: true
 
 # 页面卡片顶部气泡升起效果
 bubble:
@@ -1100,9 +1100,9 @@ console:
 
 # 51a统计配置
 LA:
-  enable: false
-  ck:
-  LingQueMonitorID:
+  enable: true
+  ck: 3NPYfPTE4FlMT73Q
+  LingQueMonitorID: 3NPa0j8gbvSmcsDY
 
 # 标签卖萌
 diytitle:

@@ -32,10 +32,10 @@
     title: 走一步是一步
     list:
       - desc: 
-          2023 守望先锋社区晚会 后期;  EDU BNBU 动画与交互媒体
+          2023 守望先锋社区晚会 后期 | EDU BNBU 动画与交互媒体
         color: "#357ef5"
       - desc: 
-          2025 守望先锋社区晚会 场景导演;  派对游戏BubbleBreak 策划 美术 UX 程序
+          2025 守望先锋社区晚会 场景导演 | 派对游戏BubbleBreak 策划 美术 UX 程序
         color: "#357ef5"
     img: https://bu.dusays.com/2023/04/21/644287166329b.png
   statistic:
@@ -75,7 +75,7 @@
     game_bg: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/stardewvalley.jpg
   comic: #成果展示
     comic_tips: 做过什么
-    comic_title: 看一看
+    comic_title: 展示区
     comic_list:
       - name: Bubble Break
         href: https://www.bilibili.com/video/BV1DyYNzYEW8/?spm_id_from=333.1387.homepage.video_card.click&vd_source=0f56c0181cd0ee5752defe9024083747
