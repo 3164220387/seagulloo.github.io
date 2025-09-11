@@ -1,5 +1,5 @@
 - class_name: 关于页
-  subtitle: 做些什么
+  subtitle: 联系邮箱：3164220387@qq.com
   avatarImg: https://i.mji.rip/2025/09/11/3212fe12823ccc4e488bd8cb18dca17c.jpeg
   avatarSkills:
     left:
@@ -55,8 +55,8 @@
     selfInfoTips3: 现在职业
     selfInfoContent3: 大三学生👨‍🎓
   personalities: # 近况部分 位置：D:\MyBlog\MyBlogs\seagulloo.github.io\themes\anzhiyu\layout\includes\page\about.pug
-    author_name: 12
-    personality_type: 12
+    author_name: 当前状态
+    personality_type: 
     photo_url: https://i.mji.rip/2025/09/11/6ebd05c5865ce93f25eb762960d77c5a.jpeg #oocat图
     personality_img: 
     name_url: #https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
