@@ -70,7 +70,7 @@ social:
 
 # 作者卡片 状态
 author_status:
-  enable: true
+  enable: false
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
@@ -138,8 +138,8 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2021/01/15/0aac889bc91dc.png
-  effect: false
+  img: https://i.mji.rip/2025/09/11/3212fe12823ccc4e488bd8cb18dca17c.jpeg
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -244,10 +244,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: https://i.mji.rip/2025/09/11/13e355b27a7d5acec2ccf46b41c8afb2.jpeg
       link:
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    - img: https://i.mji.rip/2025/09/11/01a057176f405f99e34699a9f3d81794.jpeg
       link:
       text: 支付宝
 
@@ -789,7 +789,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg # 自定加载动画义头像
+  avatar: https://i.mji.rip/2025/09/11/3212fe12823ccc4e488bd8cb18dca17c.jpeg # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1088,7 +1088,7 @@ friends_vue:
 
 # 深色模式粒子效果canvas
 universe:
-  enable: true
+  enable: false
 
 # 页面卡片顶部气泡升起效果
 bubble:
