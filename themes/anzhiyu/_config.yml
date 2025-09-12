@@ -808,7 +808,10 @@ aside:
   card_author:
     enable: true
     description: 
-      <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这里是我的<b style="color:#fff">赛博日记</b>。</div> #相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"。</div> # 默认为站点描述
+      <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);
+      ">这里是我的<b style="color:#fff">赛博日记</b>。<br>
+      我将在这里更新我的<b style="color:#fff">工作状况</b>、<b style="color:#fff">日常生活</b>、和<b style="color:#fff">乱七八糟的一些东西</b>。
+      </div> #相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"。</div> # 默认为站点描述
     name_link: /
 
   card_announcement:
