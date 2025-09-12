@@ -1094,7 +1094,7 @@ universe:
 
 # 页面卡片顶部气泡升起效果
 bubble:
-  enable: true
+  enable: false
 
 #  控制台打印信息
 console:
@@ -1299,7 +1299,9 @@ CDN:
     # lazyload:
     # instantpage:
     # typed:
-    # pangu:
+    pangu:
+      enable: false
+      field: post
     # fancybox_css:
     # fancybox:
     # medium_zoom:
