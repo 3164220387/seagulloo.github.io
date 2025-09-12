@@ -299,13 +299,13 @@ noticeOutdate:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,weibo,qq
 
 # AddToAny
 # https://www.addtoany.com/
 addtoany:
   enable: false
-  item: facebook,twitter,wechat,sina_weibo,email,copy_link
+  item: wechat,sina_weibo,email,copy_link
 
 # Comments System
 # --------------------------------------
@@ -818,7 +818,7 @@ aside:
     enable: false
     content: 欢迎来看我的博客鸭~
   card_weixin:
-    enable: true
+    enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
     backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
   card_recent_post:
