@@ -139,18 +139,18 @@ if site.data.about
       .author-content
         .author-content-item.personalities
           - let {author_name, personality_type, photo_url, personality_img, name_url, personality_type_color} = item.personalities
-          .author-content-item-tips 先放着
+          .author-content-item-tips 进展
           span.author-content-item-title= author_name
           .title2(style=`color:${personality_type_color ? personality_type_color : "#ac899c"}`)= personality_type
           .post-tips
             | 在 
-            a(href='https://www.16personalities.com/', target='_blank', rel='noopener nofollow') 16personalities
+            a(href='https://space.bilibili.com/195112898?spm_id_from=333.1007.0.0', target='_blank', rel='noopener nofollow') 我的B站主页
             |  了解更多关于 
             a(target='_blank', rel='noopener external nofollow', href= name_url)= author_name
           .image
-            img.no-lightbox(src=url_for(personality_img), alt='人格')
+            img.no-lightbox(src=url_for(personality_img), alt='状态')
         .author-content-item.myphoto
-          img.author-content-img.no-lightbox(alt='自拍', src=url_for(photo_url))
+          img.author-content-img.no-lightbox(alt='oocat', src=url_for(photo_url))
       
       .author-content
         .author-content-item.maxim

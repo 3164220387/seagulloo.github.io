@@ -55,10 +55,10 @@
     selfInfoTips3: 现在职业
     selfInfoContent3: 大三学生👨‍🎓
   personalities: # 近况部分 位置：D:\MyBlog\MyBlogs\seagulloo.github.io\themes\anzhiyu\layout\includes\page\about.pug
-    author_name: 当前状态
+    author_name: 当前状态 ： 游戏开发学习中
     personality_type: 
     photo_url: https://i.mji.rip/2025/09/11/6ebd05c5865ce93f25eb762960d77c5a.jpeg #oocat图
-    personality_img: 
+    personality_img: https://i.mji.rip/2025/09/11/adb6227e4a40b9f8c7e7206992230c73.png
     name_url: #https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: Blabla
