@@ -6,9 +6,11 @@ top_img: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/HEXO.png
 cover: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/HEXO.png
 ---
 
-## 前言
+# 前言
 这里是我的**第一个**博客！
 我将在这里放一些使用**Hexo + Github Pages**搭建博客的笔记，以及在期间遇到的一些**疑难杂症**的解决方法。
+
+# 使用帮助
 
 ## 多设备同步更新博客
 参考教程：[多台电脑同步更新Hexo博客](https://blog.csdn.net/qq_30105599/article/details/118302086)
@@ -37,13 +39,13 @@ $ git pull origin 想要更新的分支名
 ## 使用Github Actions自动部署
 参考教程：[Hexo+Github Actions实现自动部署](https://blog.anheyu.com/posts/asdx.html)
 
-## 部署到服务器
-
-## 文档
+# 文档
 [安知鱼文档](https://docs.anheyu.com/intro.html)：无需多言，感谢安知鱼开源。
 [Markdown语法](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)：刚入门，还是需要多看看写作规范。
 
-## 好用的工具
+# 好用的工具
+
+## 图床
 [PicGo](https://github.com/Molunerfinn/PicGo)：一个开源的图床工具，支持多种图床，包括Github、七牛云等，并且支持**快捷键**上传图片。
 
 ## VS Code插件

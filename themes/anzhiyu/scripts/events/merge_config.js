@@ -571,9 +571,9 @@ hexo.extend.filter.register(
       nav_music: {
         enable: true,
         console_widescreen_music: false,
-        id: 8152976493,
+        id: 757075581,
         server: "netease",
-        all_playlist: "https://y.qq.com/n/ryqq/playlist/8802438608",
+        all_playlist: "https://music.163.com/playlist?id=757075581&uct2=U2FsdGVkX18ylQTWWQlEZhogOVYvj8Kr3dMKSfiR9bE=",
       },
       visitorMail: {
         enable: true,

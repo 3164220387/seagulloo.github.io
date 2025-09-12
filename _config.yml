@@ -104,3 +104,9 @@ deploy:
   type: git
   repo: git@github.com:3164220387/seagulloo.github.io.git
   branch: main
+
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false
