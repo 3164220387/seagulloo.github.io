@@ -4,19 +4,19 @@ menu:
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
 
-  留言:
-    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
-    留言板: /comments/ || anzhiyu-icon-envelope
+  # 留言:
+  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+  #   留言板: /comments/ || anzhiyu-icon-envelope
 
-  # 我的:
+  我的:
   #   音乐馆: /music/ || anzhiyu-icon-music
     # 追番页: /bangumis/ || anzhiyu-icon-bilibili
-    # 相册集: /album/ || anzhiyu-icon-images
+    相册集: /album/ || anzhiyu-icon-images
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     # 小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
-    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
@@ -1086,7 +1086,7 @@ friends_vue:
   vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.1/friends/index.4f887d95.js
   apiurl: # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
-  top_background:
+  top_background: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/6d0f3df881823862782799860d9f4a1c.jpg
 
 # 深色模式粒子效果canvas
 universe:
@@ -1109,7 +1109,7 @@ LA:
 # 标签卖萌
 diytitle:
   enable: true
-  leaveTitle: Loading...
+  leaveTitle: Waiting...
   backTitle: 欢迎回来！
 
 # 留言弹幕配置
