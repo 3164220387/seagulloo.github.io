@@ -13,22 +13,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Branch
+      - name: Checkout_Branch
         uses: actions/checkout@v2
         with:
           ref: master
 
-      - name: Setup Node
+      - name: Setup_Node
         uses: actions/setup-node@v1
         with:
           node-version: "16.x"
 
-      - name: Install Hexo
+      - name: Install_Hexo
         run: |
           export TZ='Asia/Shanghai'
           npm install hexo-cli -g
 
-      - name: Cache Node Modules
+      - name: Cache_Node_Modules
         id: cache-npm
         uses: actions/cache@v3
         env:
@@ -41,23 +41,23 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
-      - name: Install Dependencies
+      - name: Install_Dependencies
         if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         run: |
           npm install gulp-cli -g #全局安装gulp
           npm install --save
 
-      - name: Generate Static Files
+      - name: Generate_Static_Files
         run: |
           hexo clean
           hexo bangumi -u #bilibili番剧更新
           hexo generate
           gulp
 
-      - name: Deploy to Github
+      - name: Deploy_To_Github
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: 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
+          token: ${{ secrets.GH_TOKEN }}
           repository-name: https://github.com/SeagullOO/seagulloo.github.io
           branch: main
           folder: public
