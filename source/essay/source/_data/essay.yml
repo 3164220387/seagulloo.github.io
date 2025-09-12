@@ -1,0 +1,13 @@
+- title: 我的说说
+  subTitle: 这就是QQ空间/朋友圈
+  tips: 不发qq空间puq了，就写这挺好
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/6d0f3df881823862782799860d9f4a1c.jpg
+  essay_list:
+    - content: 我要先放一张莫名其妙的图
+      date: 2025/09/12
+      image:
+        - https://raw.githubusercontent.com/SeagullOO/Images/main/Img/76ecf224f6fd08b0fc234451b12f8b98.jpg
