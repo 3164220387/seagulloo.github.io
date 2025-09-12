@@ -1,0 +1,64 @@
+name: 自动部署
+# 当有改动推送到master分支时，启动Action
+on:
+  push:
+    branches:
+      - main
+      #2020年10月后github新建仓库默认分支改为main，注意更改
+  release:
+    types:
+      - published
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Branch
+        uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
+
+      - name: Install Hexo
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
+
+      - name: Cache Node Modules
+        id: cache-npm
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Install Dependencies
+        if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+        run: |
+          npm install gulp-cli -g #全局安装gulp
+          npm install --save
+
+      - name: Generate Static Files
+        run: |
+          hexo clean
+          hexo bangumi -u #bilibili番剧更新
+          hexo generate
+          gulp
+
+      - name: Deploy to Github
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: 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
+          repository-name: https://github.com/SeagullOO/seagulloo.github.io
+          branch: main
+          folder: public
+          commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
