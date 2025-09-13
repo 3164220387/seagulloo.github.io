@@ -49,14 +49,14 @@
       .author-info__name
         text-align: left;
         font-weight: 700;
-        color: var(--anzhiyu-white);
+        color: var(--anzhiyu-fontcolor);
         font-size: 20px;
         line-height: 1;
         margin-bottom: 5px;
         margin-top: 0
       .author-info__desc
         font-size: 12px;
-        color: var(--anzhiyu-white);
+        color: var(--anzhiyu-fontcolor);
         opacity: .6;
         line-height: 1;
 
@@ -68,7 +68,7 @@
       padding: 1rem 1.2rem;
       opacity: 0;
       transition: .3s;
-      color: var(--anzhiyu-white);
+      color: var(--anzhiyu-fontcolor);
 
     .banner-button-group .banner-button 
       padding: 20px 12px;
@@ -121,8 +121,8 @@
         cursor: pointer;
         display: flex;
         i, svg
-          background: var(--anzhiyu-white-op);
-          color: var(--anzhiyu-white);
+          background: var(--anzhiyu-theme-deep);
+          color: var(--anzhiyu-meta-theme-color);
           font-size: 1rem;
           width: 40px;
           height: 40px;
@@ -540,7 +540,7 @@ if hexo-config('aside.enable')
         min-height: 320px;
         position: relative;
       &::before
-        background: linear-gradient(-25deg,var(--anzhiyu-main),var(--anzhiyu-main-op-deep),var(--anzhiyu-main),var(--anzhiyu-main-op-deep));
+        background: linear-gradient(-25deg,var(--global-bg),var(--global-bg),var(--global-bg),var(--global-bg));
         background-size: 400%;
         position: absolute;
         width: 100%;
@@ -573,8 +573,8 @@ if hexo-config('aside.enable')
           display: none
       #author-info__sayhi 
         text-align: left;
-        color: var(--anzhiyu-white);
-        background: var(--anzhiyu-white-op);
+        color: var(--anzhiyu-fontcolor);
+        background: var(--anzhiyu-maskbg);
         font-size: 12px;
         margin: auto;
         padding: 2px 8px;

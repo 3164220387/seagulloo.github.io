@@ -28,13 +28,13 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://blog.anheyu.com/
+          link: https://seagulloo.github.io/
           icon: /img/favicon.ico
     - title: 项目
       item:
         - name: Bilibili
           link: https://space.bilibili.com/195112898?spm_id_from=333.1007.0.0
-          icon: https://image.anheyu.com/favicon.ico
+          icon: https://i.mji.rip/2025/09/13/b7ce09bfe12ff12b66d05a792e400b79.png
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -443,9 +443,9 @@ footer:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
-      - link: https://blog.anheyu.com/
-        shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
-        message: 本站使用AnZhiYu主题
+      # - link: https://blog.anheyu.com/
+      #   shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
+      #   message: 本站使用AnZhiYu主题
       # - link: https://www.dogecloud.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
       #   message: 本站使用多吉云为静态资源提供CDN加速
@@ -503,15 +503,15 @@ footer:
       #     - title: 源码
       #       link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
       #     - title: 更新日志
-      #       link: /update/
+      # #       link: /update/
       # - title: 导航
       #   links:
       #     - title: 即刻短文
       #       link: /essay/
-      #     - title: 友链文章
-      #       link: /fcircle/
-      #     - title: 留言板
-      #       link: /comments/
+      #     # - title: 友链文章
+      #     #   link: /fcircle/
+      #     # - title: 留言板
+      #     #   link: /comments/
       # - title: 协议
       #   links:
       #     - title: 隐私协议
@@ -521,14 +521,14 @@ footer:
       #     - title: 版权协议
       #       link: /copyright/
   footerBar:
-    enable: true
+    enable: false
     authorLink: /
     cc:
       enable: false
       link: /copyright
     linkList:
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: 主题
+      # - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+      #   text: 主题
       # - link: https://image.anheyu.com
       #   text: 图床
       # - link: https://beian.miit.gov.cn/
@@ -613,9 +613,9 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#425AEF"
-  dark_main: "#f2b94b"
-  paginator: "#425AEF"
+  main: "#5ca1ff"
+  dark_main: "#7B68EE"
+  paginator: "#F0E68C"
   #   button_hover: "#FF7242"
   text_selection: "#2128bd"
   link_color: "var(--anzhiyu-fontcolor)"
@@ -807,11 +807,12 @@ aside:
     category: true
   card_author:
     enable: true
-    description: 
-      <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);
-      ">这里是我的<b style="color:#fff">赛博日记</b>。<br>
-      我将在这里更新我的<b style="color:#fff">工作状况</b>、<b style="color:#fff">日常生活</b>、和<b style="color:#fff">乱七八糟的一些东西</b>。
-      </div> #相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"。</div> # 默认为站点描述
+    description: |
+      <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color: 
+      var(--anzhiyu-fontcolor); opacity:0.8;">这里是我的<b style="color: var(--anzhiyu-fontcolor)">赛博日记</b>。<br>
+      我将在这里更新我的<b style="color: var(--anzhiyu-fontcolor)">工作状况</b>、<b style="color: var(--anzhiyu-fontcolor)">
+      日常生活</b>、和<b style="color: var(--anzhiyu-fontcolor)">乱七八糟的一些东西</b>。
+      </div>
     name_link: /
 
   card_announcement:
@@ -1080,7 +1081,7 @@ home_top:
   banner:
     tips: 这里不知道要放什么
     title: 先跳转到B站吧
-    image: https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/bilibilitv/[tv_流汗].png
+    image: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/c0d911443b0475a830935ee5d346451a.jpg
     link: https://www.bilibili.com/
 
 # 朋友圈配置
