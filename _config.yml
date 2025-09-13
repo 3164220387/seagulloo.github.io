@@ -110,3 +110,20 @@ deploy:
 aplayer:
   meting: true
   asset_inject: false
+
+# algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
+algolia:
+  appId: "DC44QIA7VX"
+  apiKey: "b08d35445d02c823cdcfcd5cc7ccd051"
+  adminApiKey: "50560e096840005617d0656e72ef7d30"
+  chunkSize: 5000
+  indexName: "hexo"
+  fields:
+    - content:strip:truncate,0,200
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
