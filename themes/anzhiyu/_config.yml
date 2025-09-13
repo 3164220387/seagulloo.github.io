@@ -34,7 +34,7 @@ nav:
       item:
         - name: Bilibili
           link: https://space.bilibili.com/195112898?spm_id_from=333.1007.0.0
-          icon: https://i.mji.rip/2025/09/13/b7ce09bfe12ff12b66d05a792e400b79.png
+          icon: https://i.mji.rip/2025/09/13/31be9adbfaee47605214a7835abc0e8a.png
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -72,7 +72,7 @@ social:
 author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  statusImg: "https://i.mji.rip/2025/09/13/0f4ef62fcdb8e98bc6a4b2b577333721.png"
   skills:
     - 🚗 随性旅行筹备中
     - 🔍 分享与热心帮助
@@ -313,12 +313,12 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use: # Twikoo/Waline
+  use: Twikoo #/Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
-  count: false # Display comment count in post's top_img
+  lazyload: true
+  count: true # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
 # valine
