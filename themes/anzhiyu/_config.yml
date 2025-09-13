@@ -1113,7 +1113,7 @@ LA:
 # 标签卖萌
 diytitle:
   enable: true
-  leaveTitle: Waiting...
+  leaveTitle: 坐一会...
   backTitle: 欢迎回来！
 
 # 留言弹幕配置
