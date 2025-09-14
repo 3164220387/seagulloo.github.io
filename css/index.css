@@ -24036,8 +24036,8 @@ a.categoryButton {
 a.categoryButton svg,
 a.categoryButton i {
   font-size: 5rem;
-  color: #060606;
-  opacity: 0.5;
+  color: var(--anzhiyu-main);
+  opacity: 0.6;
   position: absolute;
   right: 0;
   top: 30%;
@@ -24100,8 +24100,8 @@ a.categoryButton:after {
 [data-theme="dark"] a.categoryButton i svg,
 [data-theme="dark"] a.categoryButton i {
   font-size: 5rem;
-  color: #ffffff;
-  opacity: 0.2;
+  color: var(--anzhiyu-main);
+  opacity: 0.3;
   position: absolute;
   right: 0;
   top: 30%;
