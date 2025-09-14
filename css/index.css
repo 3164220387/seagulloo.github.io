@@ -2725,7 +2725,7 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-shadow-border: 0 8px 16px -4px rgba(44,45,48,0.047);
   --anzhiyu-shadow-blackdeep: 0 2px 16px -3px rgba(0,0,0,0.15);
   --anzhiyu-logo-color: linear-gradient(215deg, #4584ff 0%, #cf0db9 100%);
-  --anzhiyu-code-stress: var(--anzhiyu-main);
+  --anzhiyu-code-stress: var(--anzhiyu-code-stressbg);
   --style-border: 1px solid var(--anzhiyu-card-border);
   --anzhiyu-blue-main: #7e8ded;
   --style-border-hover: 1px solid var(--anzhiyu-main);
@@ -2755,6 +2755,7 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #363636;
   --anzhiyu-background: #f7f9fe;
+  --anzhiyu-code-stressbg: rgba(192,192,192,0.5);
   --anzhiyu-reverse: #000;
   --anzhiyu-maskbg: rgba(255,255,255,0.6);
   --anzhiyu-maskbgdeep: rgba(255,255,255,0.85);
@@ -2795,6 +2796,7 @@ i.anzhiyu-icon-hashtag {
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #f7f7fa;
   --anzhiyu-background: #18171d;
+  --anzhiyu-code-stressbg: rgba(107,107,107,0.5);
   --anzhiyu-reverse: #fff;
   --anzhiyu-maskbg: rgba(0,0,0,0.6);
   --anzhiyu-maskbgdeep: rgba(0,0,0,0.85);
@@ -3128,6 +3130,9 @@ blockquote > :last-child {
   -o-transform: translate(18px, 24px);
   -ms-transform: translate(18px, 24px);
   transform: translate(18px, 24px);
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
 }
 #loading-box.loaded .loading-bg {
   opacity: 0;
@@ -5442,7 +5447,7 @@ body[data-type='about'] #web_bg {
   color: var(--anzhiyu-white);
 }
 .hello-about h1 {
-  font-size: 200px;
+  font-size: clamp(24px, 10vw, 200px) !important;
   color: #000;
   margin: 0;
   text-align: center;
@@ -10876,6 +10881,12 @@ h1.page-title + .tag-cloud-list {
   -ms-transition: 0.6s;
   transition: 0.6s;
   overflow: hidden;
+  -webkit-animation: header 5s linear forwards;
+  -moz-animation: header 5s linear forwards;
+  -o-animation: header 5s linear forwards;
+  -ms-animation: header 5s linear forwards;
+  animation: header 5s linear forwards;
+  animation-timeline: view();
   background-color: transparent;
 }
 #page-header.post-bg #nav {
@@ -21631,6 +21642,7 @@ body:has(.post-bg) #he-plugin-simple .s-sticker div {
   margin: 0 4px;
   line-height: 2;
   box-shadow: var(--anzhiyu-shadow-border);
+  color: var(--anzhiyu-main);
 }
 #article-container.post-content li::marker {
   content: none;
@@ -24815,7 +24827,7 @@ div#swiper_container:hover {
   height: 100%;
   top: 0;
   left: 0;
-  box-shadow: 0 -109px 133px -9px #c49871 inset;
+  box-shadow: 0 -130px 133px -12px hsla(23, 100%, 56%, 0.651) inset;
 }
 
 .topGroup .todayCard.hide {
