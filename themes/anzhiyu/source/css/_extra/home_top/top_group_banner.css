@@ -106,7 +106,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  box-shadow: 0 -109px 133px -9px #c49871 inset;
+  box-shadow: 0 -130px 133px -12px hsla(23, 100%, 56%, 0.651) inset;
 }
 
 .topGroup .todayCard.hide {

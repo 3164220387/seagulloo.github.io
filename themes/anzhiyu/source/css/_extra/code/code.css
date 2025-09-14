@@ -11,6 +11,7 @@
   margin: 0 4px;
   line-height: 2;
   box-shadow: var(--anzhiyu-shadow-border);
+  color: var(--anzhiyu-main);
 }
 #article-container.post-content li::marker {
   content: none;

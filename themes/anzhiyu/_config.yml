@@ -331,7 +331,7 @@ valine:
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
   placeholder: 3164220387@qq.com #填写QQ邮箱就会使用QQ头像喔~. # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
-  recordIP: false # Record reviewer IP
+  recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: /img/comment_bg.png # valine background
   emojiCDN: //i0.hdslb.com/bfs/emote/ # emoji CDN
@@ -1058,17 +1058,17 @@ home_top:
   subTitle: 做些事情。
   siteText: seagulloo.github.io
   category:
-    - name: 工作
+    - name: 技术分享
       path: /categories/前端开发/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 想啥写啥
+    - name: 随便写写
       path: /categories/随笔/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 日常
+    - name: 生活日常
       path: /categories/生活日常/
       shadow: var(--anzhiyu-shadow-green)
       class: green
@@ -1118,7 +1118,7 @@ diytitle:
 
 # 留言弹幕配置
 comment_barrage_config:
-  enable: false
+  enable: true
   # 同时最多显示弹幕数
   maxBarrage: 1
   # 弹幕显示间隔时间ms
@@ -1164,13 +1164,13 @@ greetingBox:
     - greeting: 晚安😴
       startTime: 0
       endTime: 5
-    - greeting: 早上好鸭👋, 祝你一天好心情！
+    - greeting: 早上好👋, 吃早饭了吗？
       startTime: 6
       endTime: 9
-    - greeting: 上午好👋, 状态很好，鼓励一下～
+    - greeting: 上午好👋, 工作还是休息呢...
       startTime: 10
       endTime: 10
-    - greeting: 11点多啦, 在坚持一下就吃饭啦～
+    - greeting: 11点多, 可以点午饭了🍔
       startTime: 11
       endTime: 11
     - greeting: 午安👋
@@ -1179,10 +1179,10 @@ greetingBox:
     - greeting: 🌈充实的一天辛苦啦！
       startTime: 14
       endTime: 18
-    - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
+    - greeting: 19点喽, 晚饭了吗🍔。
       startTime: 19
       endTime: 19
-    - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
+    - greeting: 晚上好👋, 放松一下吧😌~
       startTime: 20
       endTime: 24
 
@@ -1235,7 +1235,7 @@ peoplecanvas:
 # 动效
 dynamicEffect:
   postTopWave: true # 文章顶部波浪效果
-  postTopRollZoomInfo: false # 文章顶部滚动时缩放
+  postTopRollZoomInfo: true # 文章顶部滚动时缩放
   pageCommentsRollZoom: false # 非文章页面评论滚动时缩放显示（仅仅Twikoo生效）
 
 # Inject
