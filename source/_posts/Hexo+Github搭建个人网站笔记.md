@@ -1,5 +1,5 @@
 ---
-title: Hexo使用笔记
+title: Hexo+Github搭建个人网站笔记
 date: 2025-09-12 18:45:17
 tags:
 top_img: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/HEXO.png
@@ -10,9 +10,7 @@ cover: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/HEXO.png
 这里是我的**第一个**博客！
 我将在这里放一些使用**Hexo + Github Pages**搭建博客的笔记，以及在期间遇到的一些**疑难杂症**的解决方法。
 
-# 使用帮助
-
-## 多设备同步更新博客
+# 多设备同步更新博客
 参考教程：[多台电脑同步更新Hexo博客](https://blog.csdn.net/qq_30105599/article/details/118302086)
 
 因为上面放出的教程已经写的很详细了，所以在这里我只是简单为我自己记一个笔记。
@@ -36,17 +34,27 @@ $ git pull origin 想要更新的分支名
 ```
 即可完成博客的同步更新。
 
-## 使用Github Actions自动部署
+# 使用Github Actions自动部署
 参考教程：[Hexo+Github Actions实现自动部署](https://blog.anheyu.com/posts/asdx.html)
 
-# 文档
+# 让Google搜索到自己在GitHub上的博客
+[让Google搜索到自己在GitHub上的博客](https://l1zp.github.io/2017/06/13/google-search-blogs/)
+
+
+# 安知鱼文档
 [安知鱼文档](https://docs.anheyu.com/intro.html)：无需多言，感谢安知鱼开源。
+
+# Markdown语法
 [Markdown语法](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)：刚入门，还是需要多看看写作规范。
 
 # 好用的工具
 
 ## 图床
-[PicGo](https://github.com/Molunerfinn/PicGo)：一个开源的图床工具，支持多种图床，包括Github、七牛云等，并且支持**快捷键**上传图片。
+[PicGo](https://github.com/Molunerfinn/PicGo)：一个基于Github的图床工具，支持多种图床，包括Github、七牛云等，并且支持**快捷键**上传图片。
+
+[去不图床](https://7bu.top/): 32MB免费额度。感觉很实惠。
+
+[MJJ](https://mjj.today/)：10MB免费额度。用的第一个图床，先放着。
 
 ## VS Code插件
 我是使用VS Code写markdown的，这里分享一些使用的插件。
