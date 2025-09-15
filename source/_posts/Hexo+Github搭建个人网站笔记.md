@@ -38,8 +38,13 @@ $ git pull origin 想要更新的分支名
 参考教程：[Hexo+Github Actions实现自动部署](https://blog.anheyu.com/posts/asdx.html)
 
 # 让Google搜索到自己在GitHub上的博客
-[让Google搜索到自己在GitHub上的博客](https://l1zp.github.io/2017/06/13/google-search-blogs/)
+参考教程：[让Google搜索到自己在GitHub上的博客](https://l1zp.github.io/2017/06/13/google-search-blogs/)
 
+# 自定义域名
+参考教程：[GitHub Pages自定义域名与CDN加速](http://www.cappuccilo.top/2024/01/22/blog-building2/)
+
+CDN可不用配置。
+教程完成后，可能会出现**电脑端网站无法打开，但手机端可以**的情况。此时只需在电脑上**关闭科学上网**即可。
 
 # 安知鱼文档
 [安知鱼文档](https://docs.anheyu.com/intro.html)：无需多言，感谢安知鱼开源。
