@@ -2,8 +2,8 @@
 title: Hexo+Github搭建个人网站笔记
 date: 2025-09-12 18:45:17
 tags:
-top_img: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/HEXO.png
-cover: https://raw.githubusercontent.com/SeagullOO/Images/main/Img/HEXO.png
+top_img: https://i.mji.rip/2025/09/16/a5d71f6337b45fad836a115a34da5811.png
+cover: https://i.mji.rip/2025/09/16/a5d71f6337b45fad836a115a34da5811.png
 ---
 
 # 前言
