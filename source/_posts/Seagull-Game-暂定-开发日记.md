@@ -15,4 +15,4 @@ cover: https://i.mji.rip/2025/09/23/daf2abec16ef3d133191046339c16095.png
 ## 九月
 ### 17-22
 这几日新建了文件夹，第一次搭了自己的control(fsm)框架，先贴个图吧，要去睡觉了。
-![Control框架](https://i.mji.rip/2025/09/23/9ef9d9412bedb4cd2845a99349565ee7.png)
+![Control框架](https://i.mji.rip/2025/09/23/006aa3edeeec73b6ebaa9592db48a735.png)
